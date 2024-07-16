@@ -36,8 +36,9 @@
             }
             .menu{
                 @media (max-width: $sm) {
-                    flex-direction: row;
+                    flex-direction: column;
                     flex-wrap: wrap;
+                    display: flex;
                 }
                 display: flex;
                 flex-direction: column;
