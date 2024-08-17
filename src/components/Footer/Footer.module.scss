@@ -6,8 +6,8 @@
         gap: 2rem;
         @media (max-width: $sm) {
             flex-direction: column;
-            gap: 2rem;
-            align-items: flex-start;
+            flex-wrap: wrap;
+            display: flex;
         }
         .left{
             flex: 3;
