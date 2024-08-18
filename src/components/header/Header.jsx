@@ -38,7 +38,7 @@ const Header = () => {
           <li><a href="#work">Experience</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#people">My Certification</a></li>
-          <li><a href="https://drive.google.com/file/d/1mptsWBJokjofbmMCUwUaIFqAuQTjPZVq/view?pli=1">View My CV</a></li>
+          <li><a href="https://drive.google.com/file/d/13VVHmMeJDNdtWgsVJOaCU1nMoayy6YXl/view">View My CV</a></li>
           </ul>
 
         {/* for medium and small screens */}
