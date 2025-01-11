@@ -59,7 +59,14 @@ const Header = () => {
             <li>
                 <a href="#work">Experience</a>
             </li>
-           <li><a href="#portfolio">Portfolio</a></li>
+            <li>
+                <a href="#">My Portfolio</a>
+                <ul>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="https://ogaluechibueze.github.io/2D-Portfolio/">My Website</a></li>
+                    
+                </ul>
+            </li>
            <li><a href="#people">My Certification</a></li>
            <li><a href="https://drive.google.com/file/d/13VVHmMeJDNdtWgsVJOaCU1nMoayy6YXl/view">View My CV</a></li>
            <li>
