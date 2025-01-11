@@ -35,9 +35,15 @@ const Portfolio = () => {
 
      <div className={`flexCenter ${css.Case}`}>
         <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./geniussocial.png" alt="project"  />
-        <p>A Social Media App Designed with Next js, Styled with Tailwinds css, JavaScript and Prisma Postgresql for back-end and MongoDB for database</p>
+        <p>A Social Media App Designed with Next js, Styled with Tailwinds css, JavaScript and Prisma Postgresql for back-end and MongoDB for database and clerk for authentication</p>
         <a href="https://social-genius-app.vercel.app/">Click To Visit</a>
         </div>
+
+        <div className={`flexCenter ${css.Case}`}> 
+     <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./event.png" alt="project" />
+     <p>A Meeting sheduling Application designed with Nextjs, styled with Tailwind css and shadcn component, with Javascript for Front-end and Back-end, firebase for Database and kinde for authentication, with react email to send instant mail when a meeting is scheduled</p>
+    <a href="https://genius-candely.vercel.app/">Click To Visit</a>
+     </div> 
 
         <div className={`flexCenter ${css.Case}`}>
          <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./chatgpt.png" alt="project" />
