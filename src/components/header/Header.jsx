@@ -28,7 +28,8 @@ const Header = () => {
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>OGALUE  DEMIAN <br/><a href="mailto:ogaluechibueze@yahoo.com">ogaluechibueze@yahoo.com</a> <p>+2348035152675</p></div>
-        <ul
+       
+        {/* <ul
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -39,8 +40,38 @@ const Header = () => {
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#people">My Certification</a></li>
           <li><a href="https://drive.google.com/file/d/13VVHmMeJDNdtWgsVJOaCU1nMoayy6YXl/view">View My CV</a></li>
+          <li> Book a Session
+          <ul>
+          <li><a href="#people">Book a Session</a></li>
+          <li><a href="#people">Book a Session</a></li>
           </ul>
-
+          </li>
+          </ul>
+           */}
+           <nav>
+     <ul 
+      style={getMenuStyles(menuOpened)}
+      className={`flexCenter ${css.menu}`}
+      ref={menuRef}
+     >
+         <li><a href="#experties">Achievement</a></li>
+           
+            <li>
+                <a href="#work">Experience</a>
+            </li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#people">My Certification</a></li>
+           <li><a href="https://drive.google.com/file/d/13VVHmMeJDNdtWgsVJOaCU1nMoayy6YXl/view">View My CV</a></li>
+           <li>
+                <a href="#">Book Me</a>
+                <ul>
+                    <li><a href="https://genius-candely.vercel.app/geniusworld/1736363580401">Interview</a></li>
+                    <li><a href="#">Training</a></li>
+                    
+                </ul>
+            </li>
+      </ul>
+</nav>
         {/* for medium and small screens */}
         <div
           className={css.menuIcon}

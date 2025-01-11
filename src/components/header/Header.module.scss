@@ -8,6 +8,7 @@
     position: sticky;
     top: 0px;
     transition: all 300ms ease;
+   background-color: aqua;
 
     .container {
         position: relative;
@@ -20,6 +21,11 @@
             a{
                 font-size: 65%;
                 font-weight: bold;
+            }
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
             }
             p{
                 font-size: 65%;
@@ -94,5 +100,57 @@
 
             display: none;
         }
+        
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    white-space: nowrap;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+nav ul li ul li a:hover {
+    background-color: hotpink;
+}
     }
 }
