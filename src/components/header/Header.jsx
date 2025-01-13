@@ -73,7 +73,7 @@ const Header = () => {
                 <a href="#">Book Me</a>
                 <ul>
                     <li><a href="https://genius-candely.vercel.app/geniusworld/1736363580401">Interview</a></li>
-                    <li><a href="#">Training</a></li>
+                    <li><a href="https://genius-event.vercel.app/book/user_2qlvCaKnYPcwKOpouZJ0WmoNk9F/97fb0ba2-8133-4513-8538-2e81f0f68adc">Training</a></li>
                     
                 </ul>
             </li>
