@@ -61,7 +61,7 @@ const Header = () => {
             </li>
             <li>
                 <a href="#">My Portfolio</a>
-                <ul>
+                <ul className="left">
                     <li><a href="#portfolio">My Projects</a></li>
                     <li><a href="https://ogaluechibueze.github.io/2D-Portfolio/">My Website</a></li>
                     
@@ -71,7 +71,7 @@ const Header = () => {
            <li><a href="https://drive.google.com/file/d/13VVHmMeJDNdtWgsVJOaCU1nMoayy6YXl/view">View My CV</a></li>
            <li>
                 <a href="#">Book Me</a>
-                <ul>
+                <ul className="left">
                     <li><a href="https://genius-candely.vercel.app/GeniusWorld/1737196789596">Interview</a></li>
                     <li><a href="https://genius-event.vercel.app/book/user_2qlvCaKnYPcwKOpouZJ0WmoNk9F/97fb0ba2-8133-4513-8538-2e81f0f68adc">Training</a></li>
                     
