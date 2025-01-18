@@ -96,6 +96,7 @@
             @media (max-width: $sm),
             (max-width: $md) {
                 display: block;
+                transform-origin: left;
             }
 
             display: none;
