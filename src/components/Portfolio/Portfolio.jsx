@@ -46,9 +46,9 @@ const Portfolio = () => {
      </div> 
 
         <div className={`flexCenter ${css.Case}`}>
-         <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./chatgpt.png" alt="project" />
-         <p>ChatGPT designed with React app, styled with SASS css, with NESTFUL API to send response to OPENAI GPT-4o-MINI </p>
-         <a href="https://ogaluechibueze.github.io/My-Web-Design/">Click To Visit</a>
+         <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./ai2.png" alt="project" />
+         <p>DEMTECH AI designed with React app, styled with SASS css, with Node js server and mongo db as the database with REST api to send response to gemini, clerk used for the authentication </p>
+         <a href="https://demtech-ai.up.railway.app/">Click To Visit</a>
          </div>  
          
           <div className={`flexCenter ${css.Case}`}>

@@ -34,26 +34,20 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "Benin Electricity Distribution Company",
-    tenure: "December 2015 - To Date",
+    tenure: "December 2017 - To Date",
     role: "IT Support Engineer/Full Stack Developer",
     detail:
       "A Full stack Developer and IT Support Engineer that worked with a team in building Apps for Revenue Protection and for daily business",
   },
   {
-    place: "Beta Glass PLC",
-    tenure: "February 2014 - November 2015",
-    role: "Process Maintenace Engineer",
+    place: "DEMTECH GENIUSWORLD LTD",
+    tenure: "February 2014 - November 2017",
+    role: "Web and Software Developer",
     
      detail:
-     "Worked with a team that Design drawing of machine parts for fabrication and daily maintenance of Factory equipments."
+     "Worked with a team that Built scalable and highly efficient softwares and web applications."
   },
-  {
-    place: "Benek Engineering Limited",
-    tenure: "March 2013 - January 2014",
-    role: "Maintenance Supervisor",
-    detail:
-      "Work with team that carry general maintenance on heavy duty equipment such as Swamp buggies, excavators, cranes, generators, trucks etc.",
-  },
+ 
 ];
 
 
