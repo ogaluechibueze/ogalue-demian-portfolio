@@ -21,7 +21,7 @@ const Hero = () => {
             I'm Ogalue  Demian.
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I am an IT Support Specialist 
+            IT Support Engineer 
             <br />
             and a Full Stack Developer{" "}
           </motion.span>
