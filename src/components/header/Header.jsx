@@ -80,6 +80,7 @@ const Header = () => {
       </ul>
 </nav>
         {/* for medium and small screens */}
+        
         <div
           className={css.menuIcon}
           onClick={() => setMenuOpened((prev) => !prev)}

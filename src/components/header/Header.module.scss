@@ -47,7 +47,7 @@
                 height: calc(100vh - 6.3rem);
                 width: 50%;
                 min-width: 15rem;
-                background: black;
+                background: burlywood;
                 padding: 2rem;
                 display: flex;
                 border-radius: 10px;
@@ -100,13 +100,15 @@
 
 
         .menuIcon {
-
+         
             @media (max-width: $sm),
             (max-width: $md) {
                 display: block;
+               
             }
 
             display: none;
+           
         }
         
 nav ul {
