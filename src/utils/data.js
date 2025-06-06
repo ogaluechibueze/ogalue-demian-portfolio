@@ -38,7 +38,7 @@ export const workExp = [
     tenure: "December 2017 - To Date",
     role: "IT Support Engineer/Full Stack Developer",
     detail:
-      "A Full stack Developer and IT Support Engineer that worked with a team in building Apps for Revenue Protection and for daily business",
+      "A Full stack Developer and IT Support Engineer that worked with a team in building softwares, web applications and providing IT support on daily basis",
   },
   {
     place: "DEMTECH GENIUSWORLD LTD",
