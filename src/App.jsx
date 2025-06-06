@@ -6,12 +6,13 @@ import Work from './components/Work/Work'
 import Portfolio from "./components/Portfolio/Portfolio";
 import People from "./components/People/People";
 import Footer from "./components/Footer/Footer";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   
   return <div className={'bg-primary ${css.container}'}>
    <Header/>
-   <Hero/>
+   <Skills/>
    <Expertise/>
    <Work/>
    <Portfolio/>

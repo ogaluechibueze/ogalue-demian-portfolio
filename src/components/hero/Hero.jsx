@@ -26,14 +26,16 @@ const Hero = () => {
             and a Full Stack Developer{" "}
           </motion.span>
         </div>
-
+        <div>
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
           <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./32.png" alt="" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./32.png" alt="" />
         </motion.div>
-
+       
+        </div>
         <a className={css.email} href="ogaluechibueze@yahoo.com">
         ogaluechibueze@yahoo.com
         </a>

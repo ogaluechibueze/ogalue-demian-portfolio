@@ -104,6 +104,98 @@ export const comments = [
   
 ];
 
+export const skills = [
+  { 
+    name: "Python",
+    img: "./logos/python.png",
+  },
+  { 
+    name: "NodeJS",
+    img: "./logos/nodejs.jpg",
+  },
+  { 
+    name: "JavaScript",
+    img: "./logos/js-logo.png",
+  },
+  { 
+    name: "React",
+    img: "./logos/react-logo.png",
+  },
+  { 
+    name: "Microsoft Azure",
+    img: "./logos/azure.png",
+  },
+  { 
+    name: "DJango",
+    img: "./logos/django.jpg",
+  },
+  { 
+    name: "Docker",
+    img: "./logos/docker.png",
+  },
+  { 
+    name: "Excel",
+    img: "./logos/excel.jpg",
+  },
+  { 
+    name: "ExpressJS",
+    img: "./logos/expressjs.png",
+  },
+  { 
+    name: "Figma",
+    img: "./logos/figma.png",
+  },
+  { 
+    name: "Git",
+    img: "./logos/git.png",
+  },
+  { 
+    name: "HTML",
+    img: "./logos/html-logo.png",
+  },
+  { 
+    name: "Mongo Database",
+    img: "./logos/mongodb.png",
+  },
+  { 
+    name: "MYSQL",
+    img: "./logos/mysql.jpg",
+  },
+  { 
+    name: "NestJS",
+    img: "./logos/nestjs.png",
+  },
+  { 
+    name: "NextJS",
+    img: "./logos/nextjs.png",
+  },
+  { 
+    name: "PostGres",
+    img: "./logos/postgres-logo.png",
+  },
+  { 
+    name: "Microsoft Power App",
+    img: "./logos/PowerAppsLogo.png",
+  },
+  { 
+    name: "Tailwind CSS",
+    img: "./logos/tailwind-logo.png",
+  },
+  { 
+    name: "TypeScript",
+    img: "./logos/ts-logo.png",
+  },
+  { 
+    name: "ViteJS",
+    img: "./logos/Vitejs.png",
+  },
+  { 
+    name: "Google Cloud Platform",
+    img: "./logos/google.png",
+  },
+ 
+];
+
 export const sliderSettings = {
   dots: true,
   infinite: false,

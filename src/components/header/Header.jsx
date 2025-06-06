@@ -27,7 +27,7 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>OGALUE  DEMIAN <br/><a href="mailto:ogaluechibueze@yahoo.com">ogaluechibueze@yahoo.com</a> <p>+2348035152675</p></div>
+        <div className={css.name}>OGALUE CHIBUEZE DEMIAN <br/><h3>FULL STACK DEVELOPER / IT SUPPORT ENGINEER</h3><br/><p>ogaluechibueze@yahoo.com</p> <p>+2348035152675</p></div>
        
         {/* <ul
           style={getMenuStyles(menuOpened)}
