@@ -1,6 +1,8 @@
 @import '../../styles/contants.scss';
 
 .wrapper {
+
+    
     .container {
         p{
             line-height: 30px;
@@ -8,20 +10,25 @@
             text-align: center;
             font-style: bold;
            }
+        
         .heading {
          align-items: center;
         justify-content: space-evenly;
         display: flex;
         gap: 2rem;
         height: auto;
+
+       
           @media (max-width: $sm) {
-               display: block;
+              display: flex;
+              flex-direction: column;
               
               ul{
-            font-size: smaller;
-            display: flex;
-            flex-direction: column;
-            align-items: start;
+            font-size: 0.6rem;
+             display: grid;
+            grid-template-columns: repeat(4,1fr);
+            align-content: center;
+           
            
            
           
@@ -32,8 +39,9 @@
             }
 
            ul{
-            display: flex;
-           gap: 2rem;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+           gap: 1rem;
            justify-content: start;
            font-weight: bold;
            }

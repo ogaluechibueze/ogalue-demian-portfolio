@@ -22,31 +22,24 @@ const Skills = () => {
 
 
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">MY TECH STACKS</span>
+          <span className="primaryText">MY TECH STACKS:</span>
           <div className="skill">
           <ul >
+            <li> Python</li>
+            <li> NodeJS</li>
+             <li> DJango</li>
+            <li> JavaScript</li>
+            <li> TypeScript</li>
+            <li> MongoDB</li>
+            <li> React</li>
             <li>PowerApp</li>
             <li>Power Automate</li>
-            <li> React</li>
-            <li> NodeJS</li>
             <li> Advanced Excel</li>
-          </ul>
-         <ul>
-            
             <li> NestJS</li>
             <li> ExpreesJs</li>
             <li> Tailwind CSS</li>
             <li> Figma</li>
-            <li> Python</li>
-         </ul>
-         <ul>
-            <li> DJango</li>
-            <li> JavaScript</li>
-            <li> TypeScript</li>
-            <li> MongoDB</li>
             <li> MySQL</li>
-         </ul> 
-         <ul>
             <li> PostgreSQL</li>
             <li> Git</li>
             <li> Docker</li>
