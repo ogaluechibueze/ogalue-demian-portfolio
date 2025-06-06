@@ -23,12 +23,12 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "Participating in the design and creation of scalable software.",
-  "Writing clean, functional code on the front-end and back-end.",
-  "Testing and fixing bugs or other coding issues.",
-  "Maintaining databases and ensuring system security.",
-  "Training end-users on hardware functionality and software programs.",
-  "Providing IT assistance to staff and customers."
+  "1. Participating in the design and creation of scalable software.",
+  "2. Writing clean, functional code on the front-end and back-end.",
+  "3. Testing and fixing bugs or other coding issues.",
+  "4. Maintaining databases and ensuring system security.",
+  "5. Training end-users on hardware functionality and software programs.",
+  "6. Providing IT assistance to staff and customers."
   
 ];
 
